@@ -1,0 +1,244 @@
+body {
+    background-color: rgb(146, 146, 236);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+/* Designs for all pages */
+
+header {
+    background-color: black;
+    background-image: url("laptop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 400px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    color: gold;
+}
+
+
+
+/* Home Page Styles */
+
+header .logo a {
+    background-image: url("LOGO.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999px;
+    top: -15px;
+    width: 100px;
+}
+
+.title {
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+.images {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.images figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 375px;
+
+}
+
+.images figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 330px;
+    margin-left: -10px;
+
+}
+
+/* Location Page Styles */
+.loca_head {
+    height: 150px;
+}
+
+p {
+
+    margin-top: -15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.places {
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.places figure {
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.places figure img {
+    width: 600px;
+}
+
+/* Contact Page Formatting */
+
+.contact_head {
+    height: 100px;
+}
+
+.cont {
+    background-color: white;
+    background-image: url("../Images/laptop3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    padding: 20px;
+}
+
+.cont div {
+    font-size: 25px;
+    margin: auto;
+    width: 600px;
+}
+
+.cont div li {
+    list-style-type: none;
+    margin: 10px 0;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+/* Services Page Images */
+.ser_head {
+    height: 90px;
+}
+
+.services {
+    background-color: rgb(198, 235, 241);
+    color: rgb(45, 4, 192);
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.services div {
+    margin: auto;
+    width: 700px;
+    height: 600px;
+}
+
+.services div li {
+    list-style-type: none;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.lower {
+    background-color: rgb(53, 65, 231);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.lower p {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Supreme Designs Services Head */
+
+.sup_head {
+    height: 150px;
+}
+
+.sup_head h1 {
+    font-size: 60px;
+}
+
+.sup_head h2 {
+    margin-top: -15px;
+}
+
+/* Footer Formatting */
+
+footer {
+    background-color: black;
+    padding: 20px;
+    font-family: arial;
+    text-align: center;
+}
+
+.fb {
+    margin-top: 20px;
+}
+
+.addr {
+    color: gray;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+button {
+    background-color: gold;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+    font-size: 16px;
+
+}
