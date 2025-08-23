@@ -36,8 +36,6 @@ h1 {
     color: gold;
 }
 
-
-
 /* Home Page Styles */
 
 header .logo a {
@@ -62,6 +60,7 @@ h2 {
     text-decoration: underline;
 }
 
+
 .images {
     background-color: white;
     color: rgb(0, 0, 0);
@@ -70,11 +69,12 @@ h2 {
     padding: 20px;
 }
 
+
 .images figure {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
-    width: 375px;
+    width: 270px;
 
 }
 
@@ -82,14 +82,56 @@ h2 {
     border: 1px solid white;
     border-radius: 50%;
     box-shadow: gray 0 0 10px;
-    width: 330px;
-    margin-left: -10px;
+    width: 250px;
+    margin-left: -5px;
+
+}
+
+@media screen and (max-width: 1347px) {
+    .images figure img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1347px) {
+    .images figure {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    .images {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    .title {
+        font-size: 50px;
+    }
+}
 
 }
 
 /* Location Page Styles */
 .loca_head {
     height: 150px;
+}
+
+
+
+
+.locahome a {
+    background-image: url("LOGO.jpg");
+    background-size: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    top: -15px;
+    text-indent: -999999px;
 }
 
 p {
@@ -117,7 +159,7 @@ p {
 }
 
 .places figure img {
-    width: 600px;
+    width: 400px;
 }
 
 /* Contact Page Formatting */
@@ -211,6 +253,21 @@ p {
     margin-top: -15px;
 }
 
+.web {
+    background-image: url("tech.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    background-size: cover;
+    height: 100px;
+}
+
+.webdev em li {
+    font-family: century schoolbook;
+    text-decoration: underline;
+    text-align: center;
+}
+
 /* Footer Formatting */
 
 footer {
@@ -229,7 +286,6 @@ footer {
     text-decoration: underline;
     margin-top: 10px;
     font-size: 15px;
-
 }
 
 button {
@@ -240,5 +296,4 @@ button {
     margin: 20px auto;
     padding: 5px 10px;
     font-size: 16px;
-
 }
